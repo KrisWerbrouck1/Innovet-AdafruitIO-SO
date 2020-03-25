@@ -59,7 +59,8 @@ Verschillende hardware platformen zijn mogelijk. Enkele gekende platformen zijn:
 * Arduino met ethernet shield
 * Raspberry pi
 
-We beperken ons in de cursus tot de ESP8266 en Arduino IDE als ontwikkelomgeving.
+We beperken ons in de cursus tot de ESP8266 en Arduino IDE als ontwikkelomgeving. De bibliotheek voor de ESP8266 is standaard niet aanwezig in arduino IDE. Installeer deze indien nodig. [Toevoegen ESP8266 bibliotheek in arduino IDE](https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon)
+
 
 ## Bibliotheken in arduino IDE
 

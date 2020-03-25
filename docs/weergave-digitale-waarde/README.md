@@ -105,9 +105,6 @@ De rest van de code komt in het .ino bestand.
 
 ```cpp
 // set up the 'teller' feed
-AdafruitIO_Feed *counter = io.feed("teller");
-
-Totaal programma
 
 // Adafruit IO Publish Example
 //
