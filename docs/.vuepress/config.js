@@ -11,7 +11,8 @@ module.exports = {
       ['/', 'Home'],
       ['/inleiding/', 'Inleiding'],
       ['/aansturen-digitale-uitgang/', 'Aansturen digitale uitgang'],
-      ['/weergave-digitale-waarde/', 'Weergave digitale waarde']
+      ['/weergave-digitale-waarde/', 'Weergave digitale waarde'],
+      ['/componentenlijst/', 'Componentenlijst']
     ],
     repo: 'https://github.com/KrisWerbrouck1/Innovet-AdafruitIO-SO.git',
     docsDir: 'docs',
