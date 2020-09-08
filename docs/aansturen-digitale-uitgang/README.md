@@ -116,7 +116,7 @@ AdafruitIO_Feed *digital = io.feed("LED");
 Totaal programma
 
 ```cpp
-// Source adafruit IO Digital Output Example
+// Adafruit IO Digital Output Example
 // Tutorial Link: https://learn.adafruit.com/adafruit-io-basics-digital-output
 //
 // Adafruit invests time and resources providing this open source code.
@@ -129,31 +129,32 @@ Totaal programma
 //
 // All text above must be included in any redistribution.
 
-/******************* Configuration ***********************************/
+/************************** Configuration ***********************************/
 
 // edit the config.h tab and enter your Adafruit IO credentials
 // and any additional configuration needed for WiFi, cellular,
 // or ethernet clients.
 #include "config.h"
 
-/***************** Example Starts Here *******************************/
+/************************ Example Starts Here *******************************/
 
 // digital pin 14
 #define LED_PIN 14
 
 // set up the 'digital' feed
-//De feed methode geeft een pointer naar een object terug en kent de pointer toe aan digital.
+// De feed methode geeft een pointer naar een object terug 
+// en kent de pointer to aan digital.
 AdafruitIO_Feed *digital = io.feed("LED");
 
 void setup() {
-
+  
   pinMode(LED_PIN, OUTPUT);
-
+  
   // start the serial connection
   Serial.begin(115200);
 
   // wait for serial monitor to open
-  while (! Serial);
+  while(! Serial);
 
   // connect to io.adafruit.com
   Serial.print("Connecting to Adafruit IO");
@@ -166,7 +167,7 @@ void setup() {
   digital->onMessage(handleMessage);
 
   // wait for a connection
-  while (io.status() < AIO_CONNECTED) {
+  while(io.status() < AIO_CONNECTED) {
     Serial.print(".");
     delay(500);
   }
@@ -174,8 +175,8 @@ void setup() {
   // we are connected
   Serial.println();
   Serial.println(io.statusText());
-//de methode get wordt aangeroepen op de digital pointer. De pijl operator is eigenlijk vergelijkbaar met de punt operator voor het aanroepen van methodes, maar zorgt eerst voor een dereferencing van de pointer. In het kort: digital->get() is het equivalent van (*digital).get(). 
   digital->get();
+
 }
 
 void loop() {
@@ -185,14 +186,23 @@ void loop() {
   // function. it keeps the client connected to
   // io.adafruit.com, and processes any incoming data.
   io.run();
+
 }
 
 // this function is called whenever an 'digital' feed message
 // is received from Adafruit IO. it was attached to
 // the 'digital' feed in the setup() function above.
 void handleMessage(AdafruitIO_Data *data) {
+
   Serial.print("received <- ");
-  Serial.println(data->toPinLevel());
+
+  if(data->toPinLevel() == HIGH)
+    Serial.println("HIGH");
+  else
+    Serial.println("LOW");
+
+
+  digitalWrite(LED_PIN, data->toPinLevel());
 }
 ```
 
