@@ -3,7 +3,7 @@
 In het volgende voorbeeld wordt een getal weergegeven dat afkomstig is van een interne teller. Dit getal kan in een praktische toepassing vervangen worden door een temperatuursensor, luchtvochtigheidssensor, grondvochtigheidssensor ….
 
 
-![Blokschema](./assets/blokschema.png)
+![Blokschema](./assets/adafruitSensor.png)
 
 ##  Adafruit.IO gedeelte
 

@@ -8,7 +8,7 @@ Adafruit IO is een relatief eenvoudig cloud-platform om:
 *	Actuatoren (motoren, leds …) te bedienen via het dashboard.
 
 
-![Blokschema](./assets/Blokschema.png)
+![Blokschema](./assets/blokschemaAdafruit.png)
 
 Met de gratis versie is het op 23/10/2019 mogelijk om:
 *	30 datawaardes per minuut te bewaren
