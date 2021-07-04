@@ -3,7 +3,7 @@
 In volgende voorbeeld wordt de interne led op het wemos D1R2 bord (met ESP 8266) in- en uitgeschakeld via het adafruit dashboard. In praktische toepassingen kan dit een motor zijn, een lamp ….
 
 
-![Blokschema](./assets/blokschema.png)
+![Blokschema](./assets/adafruitActuator.png)
 
 ##  Adafruit.IO gedeelte
 
