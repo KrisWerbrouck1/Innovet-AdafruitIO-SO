@@ -1,6 +1,6 @@
 # Weergave waarde
 
-In het volgende voorbeeld wordt een getal weergegeven dat afkomstig is van een interne teller. Dit getal kan in een praktische toepassing vervangen worden door een temperatuursensor, luchtvochtigheidssensor, grondvochtigheidssensor ….
+In het volgende voorbeeld wordt een getal weergegeven dat afkomstig is van een interne teller. Dit getal kan in een praktische toepassing vervangen worden door een temperatuursensor, luchtvochtigheidssensor, grondvochtigheidssensor …. De code is zowel voor de ESP8266 als de ESP32 bruikbaar.
 
 
 ![Blokschema](./assets/adafruitSensor.png)
@@ -69,7 +69,7 @@ Klik rechts onderaan op “create block”.
 
 ## Arduino gedeelte
 
-Vertrek van een voorbeeld. adafruitio_00_publish
+Vertrek van een voorbeeld. adafruitio_00_publish. Dit voorbeeld is zowel bij de ESP8266 als de ESP32 bruikbaar.
 
 ![Voorbeeld](./assets/arduino1.png)
 

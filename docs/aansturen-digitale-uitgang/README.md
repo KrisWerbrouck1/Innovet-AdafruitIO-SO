@@ -1,6 +1,6 @@
 # Aansturen digitale uitgang
 
-In volgende voorbeeld wordt de interne led op het wemos D1R2 bord (met ESP 8266) in- en uitgeschakeld via het adafruit dashboard. In praktische toepassingen kan dit een motor zijn, een lamp ….
+In volgende voorbeeld wordt de interne led op het wemos D1R2 bord (met ESP 8266) in- en uitgeschakeld via het adafruit dashboard. Dit voorbeeld is eveneens bruikbaar voor de ESP32. In praktische toepassingen kan dit een motor zijn, een lamp ….
 
 
 ![Blokschema](./assets/adafruitActuator.png)
@@ -67,7 +67,7 @@ Pas de instellingen van de toggle knop aan.
 
 ## Arduino gedeelte
 
-Vertrek van een voorbeeld. Hier adafruitio_07_digial_out.
+Vertrek van een voorbeeld. Hier adafruitio_07_digial_out. Dit voorbeeld is zowel bij de ESP32 als de ESP8266 bruikbaar.
 
 ![Voorbeeld](./assets/arduino1.png)
 
