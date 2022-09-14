@@ -105,11 +105,11 @@ De rest van de code komt in het .ino bestand.
 
 In het voorbeeld hebben we gekozen om in adafruit.io de feed "teller" aan te maken. Hierdoor zijn geen aanpassingen nodig in de voorbeeldcode.
 
-Indien de feed in adafruit.io een andere naam had gekregen is het nodig de naam van de feed in te vullen in volgende code.
+Indien je ervoor gekozen hebt de feed in adafruit.io een andere naam te geven, is het nodig de naam van de feed aan te passen in onderstaande regel code.
 
 ```cpp
 // set up the 'teller' feed
-AdafruitIO_Feed *counter = io.feed("teller");
+AdafruitIO_Feed *counter = io.feed("andere naam feed");
 ```
 
 Voorbeeldcode:
