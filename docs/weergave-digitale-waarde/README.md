@@ -103,6 +103,17 @@ De rest van de code komt in het .ino bestand.
 
 ![keuze .ino bestand](./assets/arduino5.png)
 
+In het voorbeeld hebben we gekozen om in adafruit.io de feed "teller" aan te maken. Hierdoor zijn geen aanpassingen nodig in de voorbeeldcode.
+
+Indien de feed in adafruit.io een andere naam had gekregen is het nodig de naam van de feed in te vullen in volgende code.
+
+```cpp
+// set up the 'teller' feed
+AdafruitIO_Feed *counter = io.feed("teller");
+```
+
+Voorbeeldcode:
+
 ```cpp
 // set up the 'teller' feed
 
