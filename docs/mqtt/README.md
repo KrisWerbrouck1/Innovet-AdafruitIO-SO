@@ -25,8 +25,6 @@ Vul in onderstaande code de instellingen van het Wifi Access point in en de Adaf
 
 De IO username en de IO key zijn te vinden in het adafruit.io platform onder AIO key.
 
-De IO username en de IO key zijn te vinden in het adafruit.io platform onder AIO key.
-
 ![AIO key](./assets/arduino3.png)
 
 De IO_USERNAME is te vinden bij “Username” en IO_KEY is te vinden bij “Active Key”.

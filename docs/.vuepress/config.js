@@ -11,7 +11,7 @@ module.exports = {
       ['/', 'Home'],
       ['/inleiding/', 'Inleiding'],
       ['/aansturen-digitale-uitgang/', 'Aansturen digitale uitgang'],
-      ['/weergave-digitale-waarde/', 'Weergave digitale waarde'],
+      ['/weergave-digitale-waarde/', 'Weergave waarde'],
       ['/mqtt/', 'MQTT'],
       ['/componentenlijst/', 'Componentenlijst']
     ],
