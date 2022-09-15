@@ -1,6 +1,6 @@
 # Adafruit MQTT
 
-### Pricipe MQTT
+## Pricipe MQTT
 Het MQTT-protocol (Message Queuing Telemetry Transport) wordt zeer veel gebruikt
 in IoT toepassingen om sensordata te versturen en deze terug op te halen. MQTT
 maakt gebruik van een Broker. De clients zijn in staat om zowel data te
@@ -15,11 +15,24 @@ topic temperature/roof afkomstig van client B.
 
 Adafruit beschikt over een publieke MQTT broker waarvan de info weergegeven wordt in Adafruit.io.
 
-### Code
+## Code publiceren data
 
 De code is zowel geschikt voor de ESP8266 als voor de ESP32.
 
-Bij de ESP8266 wordt gebruik gemaakt van ESP8266WiFi.h, bij de ESP32 van WiFi.h. Het onderstaande voorbeeld is uitgewerkt voor de ESP32 waarbij iedere 30 seconden een waarde wordt doorgestuurd naar de feed counter.
+Bij de ESP8266 wordt gebruik gemaakt van ESP8266WiFi.h, bij de ESP32 van WiFi.h. Het onderstaande voorbeeld is uitgewerkt voor de ESP32 waarbij iedere 30 seconden een waarde wordt gepubliceerd in de feed "counter" van Adafruit.io.
+
+Vul in onderstaande code de instellingen van het Wifi Access point in en de Adafruit.io user name en key in.
+
+De IO username en de IO key zijn te vinden in het adafruit.io platform onder AIO key.
+
+De IO username en de IO key zijn te vinden in het adafruit.io platform onder AIO key.
+
+![AIO key](./assets/arduino3.png)
+
+De IO_USERNAME is te vinden bij “Username” en IO_KEY is te vinden bij “Active Key”.
+
+![AIO key](./assets/arduino4.png)
+
 
 ```cpp
 /***************************************************
