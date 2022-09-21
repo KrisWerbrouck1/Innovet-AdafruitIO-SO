@@ -1,5 +1,4 @@
 # Adafruit MQTT
-
 ## Pricipe MQTT
 Het MQTT-protocol (Message Queuing Telemetry Transport) wordt zeer veel gebruikt
 in IoT toepassingen om sensordata te versturen en deze terug op te halen. MQTT
